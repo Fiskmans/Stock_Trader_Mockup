@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Curlpp\src\curlpp\cURLpp.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\Easy.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\Exception.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\Form.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\Info.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\internal\CurlHandle.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\internal\OptionList.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\internal\OptionSetter.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\internal\SList.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\Multi.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\OptionBase.cpp" />
+    <ClCompile Include="..\Curlpp\src\curlpp\Options.cpp" />
+    <ClCompile Include="..\Curl\src\slist_wc.c" />
+    <ClCompile Include="..\Curl\src\tool_binmode.c" />
+    <ClCompile Include="..\Curl\src\tool_bname.c" />
+    <ClCompile Include="..\Curl\src\tool_cb_dbg.c" />
+    <ClCompile Include="..\Curl\src\tool_cb_hdr.c" />
+    <ClCompile Include="..\Curl\src\tool_cb_prg.c" />
+    <ClCompile Include="..\Curl\src\tool_cb_rea.c" />
+    <ClCompile Include="..\Curl\src\tool_cb_see.c" />
+    <ClCompile Include="..\Curl\src\tool_cb_wrt.c" />
+    <ClCompile Include="..\Curl\src\tool_cfgable.c" />
+    <ClCompile Include="..\Curl\src\tool_convert.c" />
+    <ClCompile Include="..\Curl\src\tool_dirhie.c" />
+    <ClCompile Include="..\Curl\src\tool_doswin.c" />
+    <ClCompile Include="..\Curl\src\tool_easysrc.c" />
+    <ClCompile Include="..\Curl\src\tool_filetime.c" />
+    <ClCompile Include="..\Curl\src\tool_formparse.c" />
+    <ClCompile Include="..\Curl\src\tool_getparam.c" />
+    <ClCompile Include="..\Curl\src\tool_getpass.c" />
+    <ClCompile Include="..\Curl\src\tool_help.c" />
+    <ClCompile Include="..\Curl\src\tool_helpers.c" />
+    <ClCompile Include="..\Curl\src\tool_homedir.c" />
+    <ClCompile Include="..\Curl\src\tool_hugehelp.c" />
+    <ClCompile Include="..\Curl\src\tool_libinfo.c" />
+    <ClCompile Include="..\Curl\src\tool_main.c" />
+    <ClCompile Include="..\Curl\src\tool_metalink.c" />
+    <ClCompile Include="..\Curl\src\tool_msgs.c" />
+    <ClCompile Include="..\Curl\src\tool_operate.c" />
+    <ClCompile Include="..\Curl\src\tool_operhlp.c" />
+    <ClCompile Include="..\Curl\src\tool_panykey.c" />
+    <ClCompile Include="..\Curl\src\tool_paramhlp.c" />
+    <ClCompile Include="..\Curl\src\tool_parsecfg.c" />
+    <ClCompile Include="..\Curl\src\tool_progress.c" />
+    <ClCompile Include="..\Curl\src\tool_setopt.c" />
+    <ClCompile Include="..\Curl\src\tool_sleep.c" />
+    <ClCompile Include="..\Curl\src\tool_strdup.c" />
+    <ClCompile Include="..\Curl\src\tool_urlglob.c" />
+    <ClCompile Include="..\Curl\src\tool_util.c" />
+    <ClCompile Include="..\Curl\src\tool_vms.c" />
+    <ClCompile Include="..\Curl\src\tool_writeout.c" />
+    <ClCompile Include="..\Curl\src\tool_writeout_json.c" />
+    <ClCompile Include="..\Curl\src\tool_xattr.c" />
+    <ClCompile Include="..\Imgui\imgui.cpp" />
+    <ClCompile Include="..\Imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\Imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\Imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\Imgui\imgui_widgets.cpp" />
+    <ClCompile Include="FiskJSON.cpp" />
+    <ClCompile Include="TimeHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Curl\src\slist_wc.h" />
+    <ClInclude Include="..\Curl\src\tool_binmode.h" />
+    <ClInclude Include="..\Curl\src\tool_bname.h" />
+    <ClInclude Include="..\Curl\src\tool_cb_dbg.h" />
+    <ClInclude Include="..\Curl\src\tool_cb_hdr.h" />
+    <ClInclude Include="..\Curl\src\tool_cb_prg.h" />
+    <ClInclude Include="..\Curl\src\tool_cb_rea.h" />
+    <ClInclude Include="..\Curl\src\tool_cb_see.h" />
+    <ClInclude Include="..\Curl\src\tool_cb_wrt.h" />
+    <ClInclude Include="..\Curl\src\tool_cfgable.h" />
+    <ClInclude Include="..\Curl\src\tool_convert.h" />
+    <ClInclude Include="..\Curl\src\tool_dirhie.h" />
+    <ClInclude Include="..\Curl\src\tool_doswin.h" />
+    <ClInclude Include="..\Curl\src\tool_easysrc.h" />
+    <ClInclude Include="..\Curl\src\tool_filetime.h" />
+    <ClInclude Include="..\Curl\src\tool_formparse.h" />
+    <ClInclude Include="..\Curl\src\tool_getparam.h" />
+    <ClInclude Include="..\Curl\src\tool_getpass.h" />
+    <ClInclude Include="..\Curl\src\tool_help.h" />
+    <ClInclude Include="..\Curl\src\tool_helpers.h" />
+    <ClInclude Include="..\Curl\src\tool_homedir.h" />
+    <ClInclude Include="..\Curl\src\tool_hugehelp.h" />
+    <ClInclude Include="..\Curl\src\tool_libinfo.h" />
+    <ClInclude Include="..\Curl\src\tool_main.h" />
+    <ClInclude Include="..\Curl\src\tool_metalink.h" />
+    <ClInclude Include="..\Curl\src\tool_msgs.h" />
+    <ClInclude Include="..\Curl\src\tool_operate.h" />
+    <ClInclude Include="..\Curl\src\tool_operhlp.h" />
+    <ClInclude Include="..\Curl\src\tool_panykey.h" />
+    <ClInclude Include="..\Curl\src\tool_paramhlp.h" />
+    <ClInclude Include="..\Curl\src\tool_parsecfg.h" />
+    <ClInclude Include="..\Curl\src\tool_progress.h" />
+    <ClInclude Include="..\Curl\src\tool_sdecls.h" />
+    <ClInclude Include="..\Curl\src\tool_setopt.h" />
+    <ClInclude Include="..\Curl\src\tool_setup.h" />
+    <ClInclude Include="..\Curl\src\tool_sleep.h" />
+    <ClInclude Include="..\Curl\src\tool_strdup.h" />
+    <ClInclude Include="..\Curl\src\tool_urlglob.h" />
+    <ClInclude Include="..\Curl\src\tool_util.h" />
+    <ClInclude Include="..\Curl\src\tool_version.h" />
+    <ClInclude Include="..\Curl\src\tool_vms.h" />
+    <ClInclude Include="..\Curl\src\tool_writeout.h" />
+    <ClInclude Include="..\Curl\src\tool_writeout_json.h" />
+    <ClInclude Include="..\Curl\src\tool_xattr.h" />
+    <ClInclude Include="FiskJSON.h" />
+    <ClInclude Include="StringManipulation.h" />
+    <ClInclude Include="TimeHelper.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A8DC815D-7F11-4EF5-A600-8B4211B0AA88}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Externals</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Includes.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Includes.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Libs\</OutDir>
+    <IntDir>$(SolutionDir)Workbed\$Configuration\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Libs\$Configuration\</OutDir>
+    <IntDir>$(SolutionDir)Workbed\$Configuration\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

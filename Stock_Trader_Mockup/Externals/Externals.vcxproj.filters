@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Curlpp">
+      <UniqueIdentifier>{e0cdcac0-65c7-4427-bd95-09ba1714f02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\curl">
+      <UniqueIdentifier>{60cedf1f-c825-4b85-b829-1798e59e0a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Imgui">
+      <UniqueIdentifier>{24fd140b-96c6-4301-b31a-8e96b2b85a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fiskjson">
+      <UniqueIdentifier>{3208297c-9f05-4670-a939-08f73cf5b2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timehelper">
+      <UniqueIdentifier>{636ff311-be91-4514-bdbf-e8528b7d1cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StringManipulation">
+      <UniqueIdentifier>{3d8772e2-c439-4acd-8e54-2d9c1e45fd84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Curlpp\src\curlpp\cURLpp.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\Easy.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\Exception.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\Form.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\Info.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\Multi.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\OptionBase.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\Options.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\internal\CurlHandle.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\internal\OptionList.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\internal\OptionSetter.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curlpp\src\curlpp\internal\SList.cpp">
+      <Filter>Source Files\Curlpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\slist_wc.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_binmode.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_bname.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_cb_dbg.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_cb_hdr.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_cb_prg.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_cb_rea.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_cb_see.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_cb_wrt.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_cfgable.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_convert.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_dirhie.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_doswin.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_easysrc.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_filetime.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_formparse.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_getparam.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_getpass.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_help.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_helpers.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_homedir.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_hugehelp.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_libinfo.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_main.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_metalink.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_msgs.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_operate.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_operhlp.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_panykey.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_paramhlp.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_parsecfg.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_progress.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_setopt.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_sleep.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_strdup.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_urlglob.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_util.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_vms.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_writeout.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_writeout_json.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Curl\src\tool_xattr.c">
+      <Filter>Source Files\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_widgets.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Imgui\imgui_draw.cpp">
+      <Filter>Source Files\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="FiskJSON.cpp">
+      <Filter>Source Files\Fiskjson</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeHelper.cpp">
+      <Filter>Source Files\Timehelper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Curl\src\slist_wc.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_binmode.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_bname.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_cb_dbg.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_cb_hdr.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_cb_prg.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_cb_rea.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_cb_see.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_cb_wrt.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_cfgable.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_convert.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_dirhie.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_doswin.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_easysrc.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_filetime.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_formparse.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_getparam.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_getpass.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_help.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_helpers.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_homedir.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_hugehelp.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_libinfo.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_main.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_metalink.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_msgs.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_operate.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_operhlp.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_panykey.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_paramhlp.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_parsecfg.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_progress.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_sdecls.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_setopt.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_setup.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_sleep.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_strdup.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_urlglob.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_util.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_version.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_vms.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_writeout.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_writeout_json.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Curl\src\tool_xattr.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="FiskJSON.h">
+      <Filter>Source Files\Fiskjson</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeHelper.h">
+      <Filter>Source Files\Timehelper</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManipulation.h">
+      <Filter>Source Files\StringManipulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
